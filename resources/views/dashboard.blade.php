@@ -9,7 +9,7 @@
 
    <div class="max-w-7xl mx-auto my-10 ">
         <div class=" overflow-hidden  sm:rounded-lg">
-            <div class="p-6 text-gray-900 bg-white">
+            <div class="p-6 text-gray-900 bg-blue-500">
                 <form action="{{ route('dashboard.store') }}" method="post" class="flex flex-col md:flex-row gap-5">
                     @csrf
                     <x-text-input id="body" name="body" type="text" class="mt-1 block w-full"   autocomplete="comment" />
